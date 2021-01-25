@@ -1,0 +1,36 @@
+/*Tyylitiedosto styles.htlm sivulle*/
+
+/*Taustan tyyli*/
+body {
+	background-color: black;
+	color: white;
+}
+
+/*h1 otsikon tyyli*/
+h1 {
+	font-size: 20px;
+}
+
+/*tekstin tyyli*/
+p {
+	font-size: 12px;
+	color: green;
+}
+
+/*div testi*/
+.testi {
+	border-style: dotted;
+	width: 100px;
+	height: 100px;
+
+}
+
+/*unorderlist kustomointi*/
+ul {
+	list-style-type: square;
+}
+
+/*orderedlist kustomointi*/
+ol {
+	list-style-type: lower-alpha;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fi">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>About</title>
+  </head>
+  <body>
+    <!-- Navigointipaneeli -->
+    <ul>
+      <li><a href="index.html">Etusivu</a></li>
+      <li><a href="mp.html">Moottoripyörä</a></li>
+      <li><a href="auto.html">Auto</a></li>
+      <li><a class="active" href="about.html">Yhteydenotto</a></li>
+    </ul>
+    <!-- Navigointipaneeli päättyy -->
+    <div class="container">
+      <div class="row">
+          <div class="col-sm-12">      <form action="/action_page.php">
+		      <fieldset>
+      			<legend> Ota yhteyttä: </legend>
+      			<label for="etunimi">Etunimi:</label>
+      			<br>
+      			<input type="text" id="etunimi" name="etunimi" required>
+      			<br>
+      			<label for="sukunimi">Sukunimi:</label>
+      			<br>
+      			<input type="text" id="sukunimi" name="sukunimi" required>
+      			<br>
+      			<label for="sposti">Sähköposti:</label>
+      			<br>
+      			<input type="text" id="sposti" name="sposti" required>
+      			<br>
+      			<label for="teksti">Viesti:</label>
+      			<br>
+      			<textarea rows="4" cols="80" id="teksti" name="teksti" required>
+      			</textarea>
+      			<br>
+      			<br>
+      			<label for="vetovalikko">Valitse merkki: </label>
+      			<select name="vetpvalikko" id="vetovalikko" required>
+      			<option value="">Ei kumpikaan</option>
+      			<option value="suzuki">Suzki</option>
+      			<option value="toyota">Toyota</option>
+      			</select>
+      			<br>
+      			<br>
+      			<label id="vastaus"> Haluan viestiin vastauksen</label>
+      			<input type="checkbox" id="vastausviestiin" name="vastausviestiin" value="vastausviestiin">
+      			<br>
+      			<br>
+      			<input type="submit" class="laheta" value="Lähetä viesti">
+      		</fieldset>
+      </form></div>
+      </div>
+    </div>
+    <footer> Kaikki oikeudet pidetään </footer>
+  </body>
+</html>

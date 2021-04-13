@@ -1,14 +1,60 @@
- <!DOCTYPE html>
-<html>
-	<head>
-		<link rel="stylesheet" href="style.css">
-		<title>Testisivu</title>
-	</head>
-	<body>
-		<h1>Santerin testisivu</h1>
-		<p>testi...</p>
-		<p>testi nro2</p>
-		<a href="styles.html">Styles.html</a>
-
-	</body>
-</html> 
+<!DOCTYPE html>
+<html lang="fi">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Santerin kotisivut</title>
+  </head>
+  <body>
+    <!-- Navigointipaneeli -->
+    <ul>
+      <li><a class="active" href="index.html">Etusivu</a></li>
+      <li><a href="mp.html">Moottoripyörä</a></li>
+      <li><a href="auto.html">Auto</a></li>
+      <li><a href="about.html">Yhteydenotto</a></li>
+    </ul>
+    <!-- Navigointipaneeli päättyy -->
+    <div class="container">
+      <div class="row">
+          <div class="col-sm-12">
+            <h2>Santerin kotisivut</h2>
+            <p>Sivustolta löytyy tietoa moottoripyörästä Suzuki Savage LS650 vm. 1986 ja autosta Toyota Camry vm. 1999.</p></div>
+      </div>
+      <div class="row">
+        <hr>
+        <div class="col-sm-2">
+          <img src="suzuki.jpg" alt="Suzuki logo" style="width:80%;height:80%;margin-bottom:20px;margin-top:20px;">
+        </div>
+        <div class="col-sm-10">
+          <h3>Suzuki Savage LS650</h3>
+          <p>Pyörä on tuotu joskus jenkeistä Suomeen.
+          <br>
+          Siinä on 650 kuutioinen yksipyttyinen ilmajäähdytetty mottori, mikä tekee siitä hauskan ajettavan. Tekniikka on tässä mallissa todella luotettavaa
+          <br>
+          Laite soveltuu todella hyvin ensimmäiseksi moottoripyöräksi sen helpon ajettavuuden ansioista.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <hr>
+        <div class="col-sm-10">
+          <h3>Toyota Camry</h3>
+          <p>Camry on myös tuotu 2000 luvun alussa jenkeistä. Korimalli eroaa eurooppalaisesta versiosta esimerkiksi vähän leveämmillä takavaloilla ja siinä on mailimittari. Myös muita pieniä eroja on.
+          <br>
+          Autossa on 2.2 litrainen nelisylinterinen moottori, ja 4-portainen automaattivaihteisto.
+          <br>
+          Tekniikka on luotettavaa, muita huoltoja ei ole juuri vaadittu kuin öljyjen ja suodattimen vaihto kerran vuodessa.
+          </p>
+        </div>
+        <div class="col-sm-2">
+          <img src="toyota.jpg" alt="Toyota logo" style="width:80%;height:80%;margin-bottom:20px;margin-top:20px;">
+        </div>
+      </div>
+    </div>
+      <footer> Kaikki oikeudet pidetään </footer>
+  </body>
+</html>

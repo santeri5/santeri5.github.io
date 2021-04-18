@@ -179,9 +179,11 @@ hr {
   }
   .container {
     width: 100%;
+    box-shadow: none;
   }
   footer {
     width: 100%;
+    box-shadow: none;
 
   }
   table, th, td {
@@ -189,6 +191,7 @@ hr {
   }
   ul {
     width: 100%;
+    box-shadow: none;
 
 }
 }

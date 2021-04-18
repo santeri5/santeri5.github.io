@@ -161,7 +161,7 @@ form {
 hr {
 	border-color: black;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
   body {
 		width: 100%;
   }

@@ -173,7 +173,7 @@ hr {
 	padding-left: 0px;
 	padding-right: 0px;
   box-shadow: none;
-  border-style: none;
+  border-style: solid;
 	}
   [class*="col-"] {
     width: 100%;
@@ -184,7 +184,7 @@ hr {
   footer {
     width: 100%;
     box-shadow: none;
-    border-style: none;
+    border-style: solid;
   }
   table, th, td {
     width: 100%;
@@ -192,6 +192,6 @@ hr {
   ul {
     width: 100%;
     box-shadow: none;
-    border-style: none;
+    border-style: solid;
 }
 }

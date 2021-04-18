@@ -171,4 +171,8 @@ hr {
 		padding-top: 20px;
 		margin-bottom: 20px;
 	}
+	.row {
+	padding-left: 0px;
+	padding-right: 0px;
+	}
 }

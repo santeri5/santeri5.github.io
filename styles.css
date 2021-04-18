@@ -181,4 +181,13 @@ hr {
   [class*="col-"] {
     width: 100%;
   }
+	.container {
+		width: 100%;
+	}
+	footer {
+		width: 100%;
+	}
+	table, th, td {
+		width: 100%;
+	}
 }
